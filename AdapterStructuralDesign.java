@@ -30,3 +30,12 @@ class MovableAdapterImpl implements MovableAdapter {
     }
 
 }
+
+public static void main(String[] args) {
+    BWM car = new BMW();
+    car.getSpeed();
+
+    MovableAdapter toMPH = new MovableAdapter(car);
+    toMPH.getSpeed();
+
+}
